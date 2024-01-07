@@ -133,7 +133,7 @@ nav{
     justify-content: space-between;
     margin-bottom: 18px;
 }
-.sidebar_title h4{
+.right_sidebar h4{
     font-weight: 600;
     font-size: 16px;
 }
@@ -187,11 +187,126 @@ nav{
     margin-bottom: 20px;
 }
 .online_list .online img{
+    /*width: 40px;
+    border-radius: 50%;*/
+    clip-path: circle(50%);
     width: 40px;
-    border-radius: 50%;
+    height: 40px;
 }
 .online_list .online{
     width: 40px;
     border-radius: 50%;
     margin-right: 15px;
+}
+.online_list .online::after{
+    top: unset;
+    bottom: 0;
+}
+.history_gallery{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.history{
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/aa.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.history img{
+    position: absolute;
+    width: 30px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    border: 3px solid #e4dcdc;
+    /*codigo encontrado en https://kinsta.com/es/blog/estilo-de-imagen-css/#:~:text=Para%20que%20tus%20im%C3%A1genes%20sean,iguales%20de%20anchura%20y%20altura.&text=En%20el%20ejemplo%20anterior%2C%20la,o%20altura%20de%20la%20imagen.*/
+    clip-path: circle(50%);
+    width: 30px;
+    height: 30px;
+}
+.history p{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.history_f{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/family_2.jpg); 
+}
+.history_a2{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/aa.jpg); 
+}
+.history_c{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/family_caroll.jpg); 
+}
+.history_j{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/Harrys.jpg); 
+}
+.history_luz{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)), url(images/luz_alonso.jpg); 
+}
+
+.history.history_f img{
+    top: unset;
+    left: 50%;
+    bottom: 40px;
+    transform: translate(-50%);
+    border: 0;
+    width: 35px;
+}
+.write_post_container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+}
+.user_profiles{
+    display: flex;
+    align-items: center;
+}
+.user_profiles img{
+    /*width: 45px;
+    border-radius: 50%;*/
+    margin-right: 10px;
+    clip-path: circle(50%);
+    width: 40px;
+    height: 40px;
+}
+.user_profiles p{
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: #626262;
+}
+.user_profiles small{
+    font-size: 12px;
+}
+.post_input_container{
+    padding-left: 55px;
+    padding-top: 20px;
+}
+.post_input_container textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+.add_post_links{
+    display: flex;
+    margin-top: 10px;
+}
+.add_post_links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    
 }
