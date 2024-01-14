@@ -18,13 +18,54 @@
                 </ul>
             </div>
             <div class="nav_right">
+
                 <div class="search_box">
                     <img src="images/search.png">    
                     <input type="text" placeholder="Search">
                 </div>
-                <div class="nav_user_icon online">
+                <div class="nav_user_icon online" onclick="settingsMenuToggle()">
                     <img src="images/IMG-20230218-WA0022_1.jpg" alt="">
                 </div>
+                
+            </div>
+        <!------------- settings_menu ----------- -->
+            <div class="settings_menu">
+                
+                <div class="settings_menu_inner">
+                    <div class="user_profiles">
+                        <img src="images/profile.jpg">
+                        <div>
+                            <p>Alonso Rodríguez Rueda</p>
+                            <a href="#">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user_profiles">
+                        <img src="images/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="settings_links">
+                        <img src="images/settings.png" class="settings_icon">
+                        <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings_links">
+                        <img src="images/help.png" class="settings_icon">
+                        <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings_links">
+                        <img src="images/accessibility.png" class="settings_icon">
+                        <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="settings_links">
+                        <img src="images/logout.png" class="settings_icon">
+                        <a href="#">logout <img src="images/arrow.png" width="10px"></a>
+                    </div>
+                </div>
+                
             </div>
         </nav>
         <div class="container">
@@ -48,7 +89,6 @@
             <!------- main_content ----- -->
             <div class="main_content">
                 <div class="history_gallery">
-
                     <div class="history history_f">
                         <img src="images/family.jpg">
                         <p>Familia</p>
@@ -89,6 +129,143 @@
                         </div>
                     </div>        
                 </div>
+
+                <div class="post_container">                  
+                    <div class="post_row">
+                        <div class="user_profiles">
+                            <img src="images/profile.jpg">
+                            <div>
+                                <p>Alonso Rodríguez Rueda</p>
+                                <span>June 24 2021, 13:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+
+                    <p class="post_text">Subscribe <span>@Easy Tutorials</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Easy Tutorials</a> <a href="#">#YouTube Channel</a></p>
+                    <img src="images/feed_family_2.jpg" class="post_img">
+
+                    <div class="post_row">
+                        <div class="activity_icons">
+                            <div><img src="images/like.png">120</div>
+                            <div><img src="images/comments.png">45</div>
+                            <div><img src="images/share.png">20</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile.jpg"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post_container">            
+                    <div class="post_row">
+                        <div class="user_profiles">
+                            <img src="images/profile.jpg">
+                            <div>
+                                <p>Alonso Rodríguez Rueda</p>
+                                <span>June 24 2021, 13:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+
+                    <p class="post_text">Like and share this video with friends, tag<span>@Easy Tutorials</span> Facebook and your post. Ask your doubts in the comments <a href="#">#Easy Tutorials</a> <a href="#">#YouTube Channel</a></p>
+                    <img src="images/family_2.jpg" class="post_img">
+
+                    <div class="post_row">
+                        <div class="activity_icons">
+                            <div><img src="images/like_2.png">120</div>
+                            <div><img src="images/comments.png">45</div>
+                            <div><img src="images/share.png">20</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile.jpg"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post_container">                  
+                    <div class="post_row">
+                        <div class="user_profiles">
+                            <img src="images/profile.jpg">
+                            <div>
+                                <p>Alonso Rodríguez Rueda</p>
+                                <span>June 24 2021, 13:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+
+                    <p class="post_text">Subscribe <span>@Easy Tutorials</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Easy Tutorials</a> <a href="#">#YouTube Channel</a></p>
+                    <img src="images/feed_family.jpg" class="post_img">
+
+                    <div class="post_row">
+                        <div class="activity_icons">
+                            <div><img src="images/like.png">120</div>
+                            <div><img src="images/comments.png">45</div>
+                            <div><img src="images/share.png">20</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile.jpg"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post_container">                  
+                    <div class="post_row">
+                        <div class="user_profiles">
+                            <img src="images/profile.jpg">
+                            <div>
+                                <p>Alonso Rodríguez Rueda</p>
+                                <span>June 24 2021, 13:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+
+                    <p class="post_text">Subscribe <span>@Easy Tutorials</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Easy Tutorials</a> <a href="#">#YouTube Channel</a></p>
+                    <img src="images/feed_family_4.JPG" class="post_img">
+
+                    <div class="post_row">
+                        <div class="activity_icons">
+                            <div><img src="images/like.png">120</div>
+                            <div><img src="images/comments.png">45</div>
+                            <div><img src="images/share.png">20</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile.jpg"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post_container">                  
+                    <div class="post_row">
+                        <div class="user_profiles">
+                            <img src="images/profile.jpg">
+                            <div>
+                                <p>Alonso Rodríguez Rueda</p>
+                                <span>June 24 2021, 13:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+
+                    <p class="post_text">Subscribe <span>@Easy Tutorials</span> YouTube channel to watch more videos on website development and UI designs. <a href="#">#Easy Tutorials</a> <a href="#">#YouTube Channel</a></p>
+                    <img src="images/feed_family_3.JPG" class="post_img">
+
+                    <div class="post_row">
+                        <div class="activity_icons">
+                            <div><img src="images/like.png">120</div>
+                            <div><img src="images/comments.png">45</div>
+                            <div><img src="images/share.png">20</div>
+                        </div>
+                        <div class="post_profile_icon">
+                            <img src="images/profile.jpg"><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="load_more_btn">Load More</button>
+
             </div>
             <!------- right_sidebar ----- -->
             <div class="right_sidebar">
@@ -147,7 +324,14 @@
                     </div>
                     <p>Jhonatan Rodríguez</p>
                 </div>
+                
             </div>
         </div>
+
+        <div class="footer">
+            <p>Copyright 2021 - Easy Tutorials YouTube Channel</p>
+        </div>
+
+        <script src="script.js"></script>
     </body>
 </html>

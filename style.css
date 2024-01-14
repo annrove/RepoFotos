@@ -34,9 +34,10 @@ nav{
     margin: 0 15px;
 }
 .nav_user_icon img{
-    width: 30px;
-    border-radius: 50%;
-    cursor: pointer;
+    margin-right: 10px;
+    clip-path: circle(50%);
+    width: 40px;
+    height: 40px;
 }
 .nav_user_icon{
     margin-left: 30px;
@@ -308,5 +309,133 @@ nav{
     text-decoration: none;
     display: flex;
     align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+.add_post_links a i{
+    width: 20px;
+    margin-right: 10;
     
+}
+.post_container{
+    width: 100%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+.user_profiles span{
+    font-size: 13px;
+    color: #9a9a9a;
+}
+.post_text{
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+.post_text span{
+    color: #626262;
+    font-weight: 500;
+}
+.post_text a{
+    color: #1876f2;
+    text-decoration: none;
+}
+.post_img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.post_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity_icons div img{
+    width: 18px;
+    margin-right: 10px;
+}
+.activity_icons div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.post_profile_icon{
+    display: flex;
+    align-items: center;
+}
+.post_profile_icon img{
+    margin-right: 10px;
+    clip-path: circle(50%);
+    width: 20px;
+    height: 20px;
+}
+.post_row a{
+    color: #9a9a9a;
+}
+.load_more_btn{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    color: #626262;
+    background: transparent;
+    border-radius: 4px;
+}
+.Footer{
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 13px;
+}
+.settings_menu{
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 100%;
+    right: 5%;
+    max-height: 0;
+    transition: max-height o.3s;
+}
+.settings_menu-height{
+    max-height: 450px;
+}
+.user_profiles a{
+    font-size: 12px;
+    color: #1876f2;
+    text-decoration: none;
+}
+.settings_menu_inner{
+    padding: 20px;
+}
+.settings_menu hr{
+    border: 0;
+    height: 1px;
+    background: #9a9a9a;
+    margin: 15px 0;
+}
+.settings_links{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.settings_links .settings_icon{
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.settings_links a{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #626262;
 }
