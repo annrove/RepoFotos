@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - SocialBook - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32506546b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav_left">
+            <img src="images/FamilyLogoType_2-removebg-preview.png" class="FamilyLogoType">
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+
+            <div class="search_box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav_user_icon online" onclick="settingsMenuToggle()">
+                <img src="images/IMG-20230218-WA0022_1.jpg" alt="">
+            </div>
+
+        </div>
+        <!------------- settings_menu ----------- -->
+        <div class="settings_menu">
+
+            <div id="dark_btn">
+                <span></span>
+            </div>
+            <div class="settings_menu_inner">
+                <div class="user_profiles">
+                    <img src="images/profile.jpg">
+                    <div>
+                        <p>Alonso Rodríguez Rueda</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user_profiles">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings_links">
+                    <img src="images/settings.png" class="settings_icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings_links">
+                    <img src="images/help.png" class="settings_icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings_links">
+                    <img src="images/accessibility.png" class="settings_icon">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings_links">
+                    <img src="images/logout.png" class="settings_icon">
+                    <a href="#">logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="footer">
+        <p>Copyright 2021 - Easy Tutorials YouTube Channel</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

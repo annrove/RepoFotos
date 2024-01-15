@@ -55,6 +55,7 @@ nav{
     clip-path: circle(50%);
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 .nav_user_icon{
     margin-left: 30px;
@@ -108,8 +109,8 @@ nav{
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    /*Se configura esta parte después de definir lo que irá en este componente*/
     background: var(--bg-color)
+    /*Se configura esta parte después de definir lo que irá en este componente*/
     padding: 20px;
     border-radius: 4px;
     color: #626262;
@@ -402,7 +403,7 @@ nav{
     background: transparent;
     border-radius: 4px;
 }
-.Footer{
+.footer{
     text-align: center;
     color: #9a9a9a;
     padding: 10px 0 20px;
